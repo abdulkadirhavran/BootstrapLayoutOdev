@@ -1,0 +1,109 @@
+.navbar{
+
+    text-align: center;
+    background-color: rgb(44, 62, 80);
+    
+}
+
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.collapse .navbar-nav .nav-item .nav-link{
+
+    color: white;
+
+}
+
+.sectionhero{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    background-color: rgb(26,188,156);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 96px;
+
+}
+
+.sectionhero img{
+    width: 250px;
+    height: auto;
+
+}
+
+
+.sectionhero h1{
+
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+.sectionhero p {
+
+    font-size: 24px;
+   
+}
+.portfolıo h2  {
+
+    padding : 3rem;
+    font-size: 48px;
+    line-height: 2.5rem;
+}
+
+.portfolıo img{
+
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.sectionabout{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: rgb(26,188,156);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 96px;
+    
+
+}
+.sectionabout .buttons .btn{
+
+    padding: 16px 26px;
+    font-size: 1.25rem;
+
+}
+
+.contactinfo{
+
+    text-align: center;
+    background-color: rgb(44, 62, 80);
+    padding: 5rem 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+.contactinfo h4 {
+
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+footer{
+
+    background-color: #1a252f;
+    text-align: center;
+    color: white;
+
+}
+
+.py-4{
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+
+}
