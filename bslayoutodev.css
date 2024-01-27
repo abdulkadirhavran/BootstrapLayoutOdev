@@ -1,13 +1,17 @@
-.navbar{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
+.navbar{
+    display: flex;
+    justify-content: baseline; /* Yazıların aynı hizada olmasını sağlar */
     text-align: center;
     background-color: rgb(44, 62, 80);
     
 }
 
-.navbar-brand{
+.navbar .navbar-brand {
     font-size: 28px;
-    font-weight: 700;
+    font-weight: bold;
+
 }
 
 .collapse .navbar-nav .nav-item .nav-link{
@@ -18,12 +22,12 @@
 
 .sectionhero{
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 32px;
     background-color: rgb(26,188,156);
     text-align: center;
     padding-top: 200px;
-    padding-bottom: 96px;
+    padding-bottom: 100px;
 
 }
 
@@ -102,7 +106,7 @@ footer{
 
 }
 
-.py-4{
+footer {
     padding-top: 1.5rem !important;
     padding-bottom: 1.5rem !important;
 
