@@ -1,105 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Freelancer - Start Bootstrap Theme</title>
-    <link rel="shortcut icon" href="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/favicon.ico" type="image/x-icon"> <!-- Kaynak inspect'te  dosya sağ klik kaynak url yi kopyala yapıştır.-->
-    <link rel="stylesheet" href="bslayoutodev.css">
+    <link
+      rel="shortcut icon"
+      href="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Kaynak inspect'te  dosya sağ klik kaynak url yi kopyala yapıştır.-->
+    <link rel="stylesheet" href="bslayoutodev.css" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
-<body id="page-top">
-  <nav class="navbar navbar-expand-lg text-uppercase" data-bs-theme="dark">
-    <div class="container my-4 "> <!-- my & mx veya py & px = margin veya padding'de y-x ekseninde açıklık vermeye yarıyor.(- sonrası 5'e kadar değer alabilir) -->
-      <a class="navbar-brand" href="#">startbootstrap</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto mx-2"> <!-- MarginStart(ms)-auto = içeriği başlangıç noktasından(sol) en uzağa atmaya yarayan özellik)  -->          
-          <li class="nav-item">              <!-- MarginX-auto = hem sağ hem soldan boşluk ayarlar(tabi element block ise) --> 
-            <a class="nav-link" href="#portfolıo">portfolıo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">about</a>
-          </li>
-        
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <section class="sectionhero text-white">
-    <div class="container">
-       <img class="mt-5" src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/avataaars.svg" alt="zavatar"> 
-       <h1 class="head mt-4 mb-5 text-uppercase"><b>Startbootstrap</b></h1>
-       <p class="paragraph">Graphic Artist - Web Designer - Illustrator</p>
-    </div>
-  </section>
-  
-  <section class="sectionpict portfolıo text-black" id="portfolıo">
-    <div class="container">    
-      <h2 class="text-uppercase text-center fw-bold mb-5 ">portfolıo</h2>
-     
-      <div class="row">
-        <div class="col-4">
-          <img src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/cabin.png" alt="House">
-        </div>
-        <div class="col-4">
-          <img src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/cake.png" alt="piececake">
-        </div>
-        <div class="col-4">
-          <img src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/circus.png" alt="sircus">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg text-uppercase" data-bs-theme="dark">
+      <div class="container my-4">
+        <!-- my & mx veya py & px = margin veya padding'de y-x ekseninde açıklık vermeye yarıyor.(- sonrası 5'e kadar değer alabilir) -->
+        <a class="navbar-brand" href="#">startbootstrap</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mx-2">
+            <!-- MarginStart(ms)-auto = içeriği başlangıç noktasından(sol) en uzağa atmaya yarayan özellik)  -->
+            <li class="nav-item">
+              <!-- MarginX-auto = hem sağ hem soldan boşluk ayarlar(tabi element block ise) -->
+              <a class="nav-link" href="#portfolio">portfolıo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="row mt-5 mb-5">
-        <div class="col-4"><img src="/BootstrapLayoutOdev/assets/img/portfolio/gamecontroller.png" alt="controller"></div>
-        <div class="col-4"><img src="/BootstrapLayoutOdev/assets/img/portfolio/vault.png" alt="vaultpic."></div>
-        <div class="col-4"><img src="/BootstrapLayoutOdev/assets/img/portfolio/submarine.png" alt="submarine"></div>           
-      </div>
-    </div> 
-  </section>
-  
-  <section class="sectionabout text-white" id="about">
-    <div class="container">
-      <h2 class="mb-5  text-uppercase"><b>About</b></h2>
-      <div class="row">
-        <div class="col-4 ms-auto">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</div>
-        <div class="col-4 me-auto">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</div>
-      </div>
-      <div class="buttons mt-5"><button type="button" class="btn btn-outline-light">Free Download!</button></div>
-    </div>
-  </section>
-  
-  <section class="contactinfo ">
-    <div class="container">
-      <div class="row">
-        <div class="col ms-auto">
-          <h4 class="mb-4">LOCATION</h4>
-          <p>2215 John Daniel Drive
-            Clark, MO 65243</p>
-        </div>
-        <div class="col ms-auto">
-          <h4 class="mb-4">AROUND THE WEB</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ipsum!</p>
-        </div>
-        <div class="col ms-auto">
-          <h4 class="mb-4">ABOUT FREELANCER</h4>
-          <p>Freelancer is a free to use, MIT licensed Bootstrap theme created by <a rel="noopener noreferrer" href="https://startbootstrap.com/" target="_blank"  style="color: rgb(26,188,156);">Start Bootstrap</a> .</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <footer class="py-4">
-   
-    <small>ABDULKADİR HAVRANLIOĞLU</small>
+    </nav>
 
-  </footer>  
+    <section class="sectionhero text-white">
+      <div class="container">
+        <img
+          class="mt-5"
+          src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/avataaars.svg"
+          alt="zavatar"
+        />
+        <h1 class="head mt-4 mb-5 text-uppercase"><b>Startbootstrap</b></h1>
+        <p class="paragraph">Graphic Artist - Web Designer - Illustrator</p>
+      </div>
+    </section>
 
+    <section class="sectionpict portfolıo text-black" id="portfolio">
+      <div class="container">
+        <h2 class="text-uppercase text-center fw-bold mb-5">portfolio</h2>
+        <div class="row">
+          <div class="col-4">
+            <img
+              src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/cabin.png"
+              alt="House"
+            />
+          </div>
+          <div class="col-4">
+            <img
+              src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/cake.png"
+              alt="piececake"
+            />
+          </div>
+          <div class="col-4">
+            <img
+              src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/circus.png"
+              alt="sircus"
+            />
+          </div>
+        </div>
+        <div class="row mt-5 mb-5">
+          <div class="col-4">
+            <img
+              src="/BootstrapLayoutOdev/assets/img/portfolio/gamecontroller.png"
+              alt="controller"
+            />
+          </div>
+          <div class="col-4">
+            <img
+              src="/BootstrapLayoutOdev/assets/img/portfolio/vault.png"
+              alt="vaultpic."
+            />
+          </div>
+          <div class="col-4">
+            <img
+              src="/BootstrapLayoutOdev/assets/img/portfolio/submarine.png"
+              alt="submarine"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
-</body>
+    <section class="sectionabout text-white" id="about">
+      <div class="container">
+        <h2 class="mb-5 text-uppercase"><b>About</b></h2>
+        <div class="row">
+          <div class="col-4 ms-auto">
+            Freelancer is a free bootstrap theme created by Start Bootstrap. The
+            download includes the complete source files including HTML, CSS, and
+            JavaScript as well as optional SASS stylesheets for easy
+            customization.
+          </div>
+          <div class="col-4 me-auto">
+            You can create your own custom avatar for the masthead, change the
+            icon in the dividers, and add your email address to the contact form
+            to make it fully functional!
+          </div>
+        </div>
+        <div class="buttons mt-5">
+          <button type="button" class="btn btn-outline-light">
+            Free Download!
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contactinfo">
+      <div class="container">
+        <div class="row">
+          <div class="col ms-auto">
+            <h4 class="mb-4">LOCATION</h4>
+            <p>2215 John Daniel Drive Clark, MO 65243</p>
+          </div>
+          <div class="col ms-auto">
+            <h4 class="mb-4">AROUND THE WEB</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae, ipsum!
+            </p>
+          </div>
+          <div class="col ms-auto">
+            <h4 class="mb-4">ABOUT FREELANCER</h4>
+            <p>
+              Freelancer is a free to use, MIT licensed Bootstrap theme created
+              by
+              <a
+                rel="noopener noreferrer"
+                href="https://startbootstrap.com/"
+                target="_blank"
+                style="color: rgb(26, 188, 156)"
+                >Start Bootstrap</a
+              >
+              .
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-4">
+      <small>ABDULKADİR HAVRANLIOĞLU</small>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
